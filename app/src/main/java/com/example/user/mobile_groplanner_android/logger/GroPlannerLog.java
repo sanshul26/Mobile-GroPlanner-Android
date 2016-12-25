@@ -47,7 +47,4 @@ public class GroPlannerLog {
         Log.d(TAG,message);
     }
 
-
-
-
 }
