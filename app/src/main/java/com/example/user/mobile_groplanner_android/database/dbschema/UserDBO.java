@@ -15,16 +15,8 @@ public class UserDBO {
     public static final String USER_TABLE="user";
     public static final String USERNAME="username";
     public static final String PASSWORD="password";
+    public static final String EMAIL="email";
+    public static final String NAME="name";
+    public static final String CONTACT="contact";
 
-    public static String getUserTable() {
-        return USER_TABLE;
-    }
-
-    public static String getUSERNAME() {
-        return USERNAME;
-    }
-
-    public static String getPASSWORD() {
-        return PASSWORD;
-    }
 }

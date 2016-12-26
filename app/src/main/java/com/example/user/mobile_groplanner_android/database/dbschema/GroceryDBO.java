@@ -8,7 +8,7 @@ package com.example.user.mobile_groplanner_android.database.dbschema;
  * Description==================================
  * This class defines the DBO for Grocery*/
 
-public class GroceryDBO {
+public class GroceryDBO  {
 
     //Grocery table constants=======================================
 
@@ -21,36 +21,4 @@ public class GroceryDBO {
     public static final String START_DATE="start_date";
     public static final String END_DATE="end_date";
 
-    public static String getItemId() {
-        return ITEM_ID;
     }
-
-    public static String getItemName() {
-        return ITEM_NAME;
-    }
-
-    public static String getItemType() {
-        return ITEM_TYPE;
-    }
-
-    public static String getAVAILABILITY() {
-        return AVAILABILITY;
-    }
-
-    public static String getQUANTITY() {
-        return QUANTITY;
-    }
-
-    public static String getStartDate() {
-        return START_DATE;
-    }
-
-    public static String getEndDate() {
-        return END_DATE;
-    }
-
-    public static String getGroceryTable() {
-
-        return GROCERY_TABLE;
-    }
-}
